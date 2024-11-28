@@ -1,11 +1,18 @@
-En este punto, hay que situarse en el panel de control principal de cdmon y activar En la sección gestores de archivos, la opción de git en “alojamiento para desarrolladores”.
+En este punto, hay que situarse en el panel de control principal de cdmon y activar 
+En la sección gestores de archivos, la opción de git en “alojamiento para desarrolladores”.
 
-Tras entrar aquí podremos ver una opción de activar el uso de varios comandos, entre ellos “git”, lo activamos y el panel de control del hosting se desactiva durante medio minuto para permitirnos usar git.
+Tras entrar aquí podremos ver una opción de activar el uso de varios comandos, entre ellos “git”, 
+lo activamos y el panel de control del hosting se desactiva durante medio minuto para permitirnos usar git.
 
-Una vez que tenemos esto activado, volvemos al apartado “gestores de archivos” y entramos en SSH/SFTP. Ponemos nuestro nombre para ssh y la ip del hosting en la consola con el comando “ssh antonioe3@134.0.15.187” y la clave 47JU+lio
+Una vez que tenemos esto activado, volvemos al apartado “gestores de archivos” y entramos en SSH/SFTP. 
+Ponemos nuestro nombre para ssh y la ip del hosting en la consola con el comando “ssh antonioe3@134.0.15.187” 
+y la clave 47JU+lio
 
-Una vez ahí podemos usar el comando “cd ..” y despues “cd web” con esto vamos a la carpeta web la cual nos servirá para crear la carpeta alimentos mediante la orden “mkdir alimentos” por último hacemos “cd alimentos” para meternos en ese directorio.
+Una vez ahí podemos usar el comando “cd ..” y despues “cd web” con esto vamos a la carpeta web la cual nos servirá 
+para crear la carpeta alimentos mediante la orden “mkdir alimentos” por último hacemos “cd alimentos” para meternos 
+en ese directorio.
 
-Dentro de ella hacemos “git clone https://github.com/mangelm/GRUPO1DAW24.git” para clonarlo, cabe destacar que la ruta para acceder a este proyecto es http://www.antonio-olivares.es.mialias.net/alimentos/GRUPO1DAW24/web/ 
+Dentro de ella hacemos “git clone https://github.com/mangelm/GRUPO1DAW24.git” para clonarlo, cabe destacar que la ruta
+para acceder a este proyecto es http://www.antonio-olivares.es.mialias.net/alimentos/GRUPO1DAW24/web/ 
 
 Una vez completado este paso, solo nos queda entrar y ver como ha quedado el despliegue a la url proporcionada.
